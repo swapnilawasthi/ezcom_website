@@ -26,7 +26,7 @@ app.set('view engine', '.hbs');
 // // view engine setup
 // app.engine('hbs', cons.handlebars);
 // app.set('view engine', 'hbs');
-// app.set('views', path.join(__dirname, 'views'));
+ app.set('views', path.join(__dirname, 'views'));
 
 // app.get('/', function(res, res) {
 //   res.render('index', {
